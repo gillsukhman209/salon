@@ -6,7 +6,7 @@ const HeroSection = () => {
     <div className="w-full h-[70%] bg-[#F2EAE5]  ">
       <div className="w-full h-full flex justify-end ">
         <div className=" flex flex-col justify-center items-center w-full">
-          <div class="w-full  text-center font-inika text-black-50 text-[100px] font-normal tracking-widest">
+          <div class="w-full font-cormorant  text-center  text-black-50 text-[88px] font-normal tracking-widest">
             Health Care & Beauty Salon
           </div>
 

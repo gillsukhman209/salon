@@ -5,10 +5,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        "finger-paint": ['"Finger Paint"', "cursive"],
         farro: ["Farro", "sans-serif"],
         hubbali: ["Hubballi", "cursive"],
         inika: ["Inika", "serif"],
+        cormorant: ["Cormorant Garamond", "serif"],
+        manrope: ["Manrope", "sans-serif"],
       },
     },
   },
