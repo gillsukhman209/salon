@@ -6,6 +6,9 @@ import Image3 from "../portfolio-images/image3.jpeg";
 import Image4 from "../portfolio-images/image4.jpeg";
 import Image5 from "../portfolio-images/image5.jpeg";
 import Image6 from "../portfolio-images/image6.jpeg";
+import Image7 from "../portfolio-images/image7.jpeg";
+import Image8 from "../portfolio-images/image8.jpeg";
+import Image9 from "../portfolio-images/image9.jpeg";
 
 function Portfolio() {
   return (
@@ -19,13 +22,13 @@ function Portfolio() {
             <div>Our Latest Works</div>
           </div>
         </div>
-        <div className="w-full h-full mt-10 items-center justify-center flex flex-col gap-10 flex-wrap">
+        <div className="w-full h-full mt-10 items-center justify-center flex  gap-10 flex-wrap">
           <PortfolioImage img={Image1} />
           <PortfolioImage img={Image2} />
           <PortfolioImage img={Image3} />
-          {/* <PortfolioImage img={Image4} />
-        <PortfolioImage img={Image5} />
-        <PortfolioImage img={Image6} /> */}
+          <PortfolioImage img={Image7} />
+          <PortfolioImage img={Image5} />
+          <PortfolioImage img={Image9} />
         </div>
       </div>
     </div>
