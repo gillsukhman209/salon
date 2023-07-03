@@ -7,7 +7,7 @@ import Massage from "../images/massage.svg";
 import Cosmetics from "../images/cosmetics.svg";
 function Services() {
   return (
-    <div className="w-full   flex-col items-center justify-center ">
+    <div className="w-full   flex-col items-center justify-center mt-40">
       <div className="h-full w-full">
         <div className="flex flex-col gap-10  w-full items-center justify-center h-[50%]">
           <div className="font-manrope text-[22px] text-[#d36ac4] ">

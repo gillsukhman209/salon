@@ -9,7 +9,7 @@ import Image6 from "../portfolio-images/image6.jpeg";
 
 function Portfolio() {
   return (
-    <div className="w-full  flex-col gap-20">
+    <div className="w-full  flex-col gap-20 mt-40">
       <div className="h-full w-full">
         <div className="flex flex-col gap-10  w-full items-center justify-center h-[50%]">
           <div className="font-manrope text-[22px] text-[#dc80ba] ">
@@ -19,7 +19,7 @@ function Portfolio() {
             <div>Our Latest Works</div>
           </div>
         </div>
-        <div className="w-full h-full items-center justify-center flex  flex-wrap">
+        <div className="w-full h-full mt-10 items-center justify-center flex  flex-wrap">
           <PortfolioImage img={Image1} />
           <PortfolioImage img={Image2} />
           <PortfolioImage img={Image3} />
