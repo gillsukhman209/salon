@@ -9,18 +9,18 @@ function App() {
   return (
     <div className="w-full h-screen">
       <Nav />
-      <section id="hero" className="w-full h-full">
+      <section id="hero" className="h-full">
         <HeroSection />
       </section>
-      <section id="services" className="w-full h-full">
+      <section id="services" className="mt-40">
         <Services />
       </section>
-      <section id="portfolio" className="w-full h-full">
+      <section id="portfolio" className="mt-40">
         <Portfolio />
       </section>
-      <section id="appointment" className="w-full h-full">
+      {/* <section id="appointment" className="w-full h-full">
         <BookAppointment />
-      </section>
+      </section> */}
     </div>
   );
 }
